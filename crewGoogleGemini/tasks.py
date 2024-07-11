@@ -16,6 +16,7 @@ research_task = Task(
 )
 
 # Writing task with language model configuration
+#  will be assigned to writer agent
 write_task = Task(
   description=(
     "Compose an insightful article on {topic}."
