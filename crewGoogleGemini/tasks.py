@@ -3,6 +3,7 @@ from tools import tool
 from agents import news_researcher, news_writer
 
 # Research task
+#  will be assigned to researcher agent
 research_task = Task(
   description=(
     "Identify the next big trend in {topic}."
